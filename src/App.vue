@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>
+    {{ msg }}
+  </h1>
   <Hello />
 </template>
 
@@ -12,14 +14,8 @@
     },
     data() {
       return {
-        msg: 'Hello Webpack?..',
+        msg: 'Hello Vue!',
       }
     }
   }
 </script>
-
-<style>
-  h1 {
-    color: red;
-  }
-</style>
